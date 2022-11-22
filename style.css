@@ -1,0 +1,77 @@
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(255, 0, 0);
+    border: 20px solid brown;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.conteiner{
+    max-width: 1000px;
+    margin:0 auto
+}
+.is2a{
+    border: 20px solid brown;
+    width: 120px;
+    color: blue;
+    font-weight: 900;
+    line-height: 205px;
+    padding-top: 10px;
+    margin-left: 14px;
+}
+.is3a{
+    list-style: none;
+    margin-right: 30px;
+}
+.is3a a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 14px;
+transition:all 2s;
+}
+.is3a a:hover{
+    color: black;
+
+}
+.pidr{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.is4a{
+    display: flex;
+}
+.is3a:last-child{
+    margin-right: 0px; 
+}
+.t{
+    display:flex;
+    justify-content: space-between;
+}
+.AAA{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:50px 50px ;
+}
+
+
+/*
+    media
+*/
+@media screen and (max-width: 720px) {
+    .is2a {
+        color: rgb(184, 218, 36);
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .is2a {
+        color: rgb(215, 255, 192);
+    }
+    .g {
+        margin-right: 7px;
+    }
+}
